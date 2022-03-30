@@ -11,3 +11,6 @@ Copy the files from the `build/` folder and them to the `<head>` section:
 <script type="module" src="/path/to/grid-overlay.js"></script>
 ```
 
+Or, if you've got your own build system, you can take the files from the `src/`
+folder instead and include them any which way you're used to.
+
