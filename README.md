@@ -8,6 +8,6 @@ Add these to the `<head>` section:
 
 ```html
 <link rel="stylesheet" href="/path/to/grid-overlay.css">
-<script src="/path/to/grid-overlay.js"></script>
+<script type="module" src="/path/to/grid-overlay.js"></script>
 ```
 
