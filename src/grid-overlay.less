@@ -1,0 +1,28 @@
+:root {
+	--go-columns: 16;
+	--go-gap-size: 20;
+	--go-max-width: 1440;
+	--go-color: #ff8000;
+}
+
+#grid-overlay {
+	grid-template-columns: repeat(var(--go-columns), 1fr);
+	gap: 0 calc(var(--go-gap-size) * 1px);
+
+	max-inline-size: calc(var(--go-max-width) * 1px);
+	margin-inline: auto;
+	height: 100vh;
+	opacity: 0.1;
+	z-index: 100;
+	position: fixed;
+	inset: 0;
+
+	> * {
+		background-color: var(--go-color);
+		height: 100%;
+	}
+
+	// Only display when debugging
+	display: none;
+	.debug & { display: grid; }
+}
