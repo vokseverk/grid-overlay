@@ -78,10 +78,10 @@
   },
   "projectAttributes" : {
     "creationDate" : 670373571.08684599,
-    "displayValue" : "grid-overlay",
-    "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-glace",
-    "iconImageWasSetByUser" : 0,
+    "displayValue" : "Grid Overlay",
+    "displayValueWasSetByUser" : 1,
+    "iconImageName" : "brackets-payne",
+    "iconImageWasSetByUser" : 1,
     "lastBuiltDate" : 670373766.10435498
   },
   "projectSettings" : {
