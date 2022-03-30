@@ -1,12 +1,13 @@
-# JavaScript Component Template
+# Grid Overlay
 
-This is a starter project for building a JavaScript component.
+This is a small JavaScript component for adding a grid overlay to the page.
 
-The Jasmine test library comes pre-installed, so there's really no excuse for
-not having any tests :)
+## Installation
 
-See the included `color.js` and its accompanying `ColorSpec.js` file for how to get
-started.
+Add these to the `<head>` section:
 
-If you're using [Panic](https://panic.com)'s [Nova](https://nova.app) editor,
-you can hit <kbd>cmd</kbd> + <kbd>R</kbd> to run the tests.
+```html
+<link rel="stylesheet" href="/path/to/grid-overlay.css">
+<script src="/path/to/grid-overlay.js"></script>
+```
+
