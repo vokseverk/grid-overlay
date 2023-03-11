@@ -1,7 +1,14 @@
 :root {
+	// These can be overridden on any ancestor of the `#grid-overlay` element
+	// `columns`: Number of columns to create
+	// `gap-size`: Size of gaps between columns
+	// `max-width`: Maximum width of the full grid
+	// `side-padding`: Amount of padding on each side
+	// `color`: Color for the columns
 	--go-columns: 16;
 	--go-gap-size: 20;
 	--go-max-width: 1440;
+	--go-side-padding: 0;
 	--go-color: #ff8000;
 }
 
@@ -11,6 +18,7 @@
 
 	max-inline-size: calc(var(--go-max-width) * 1px);
 	margin-inline: auto;
+	padding-inline: calc(var(--go-side-padding) * 1px);
 	height: 100vh;
 	opacity: 0.1;
 	z-index: 100;
