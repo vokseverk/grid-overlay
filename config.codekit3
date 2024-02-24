@@ -25,9 +25,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/build\/LICENSE",
-      "oF" : 0
+      "oF" : 1
     },
     "\/README.md" : {
       "cB" : 0,
@@ -104,7 +104,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-payne",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 670373766.10435498
+    "lastBuiltDate" : 730484004.07477105
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -2018,7 +2018,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : "\/build"
+    "websiteRelativeRoot" : "build"
   },
   "settingsFileVersion" : "3"
 }
