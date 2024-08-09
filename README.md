@@ -14,6 +14,11 @@ Copy the files from the `build/` folder and add them to the `<head>` section:
 Or, if you've got your own build system, you can take the files from the `src/`
 folder instead and include them any which way you're used to.
 
+> [!NOTE]
+> The JavaScript reads a [Custom CSS Property][CCSSP] to decide how many columns to create,
+> so make sure to the script doesn't execute before the CSS has loaded (this _should_ be
+> handled by using `<script type="module">` though).
+
 ## Displaying
 
 The grid can be displayed by adding a debug class to the page's `<html>` (or `<body>`) element.
